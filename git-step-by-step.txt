@@ -1,0 +1,34 @@
+Configuring Git account on local machine
+----------------------------------------
+
+git config --global user.name "mayureshjoshi23"
+
+git config --global user.email "mayureshjoshi3@gmail.com"
+
+git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -nosession"
+
+git config --list
+
+git config user.name
+
+
+Git help
+--------
+
+git help config
+
+git config --help
+
+man git-config
+
+
+Git directory access
+--------------------
+
+cd /G/Learning/GIT_LEARNING/git-step-by-step-folder1
+
+
+Git initialized empty local repo
+--------------------------------
+git init
+
