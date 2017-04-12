@@ -121,3 +121,9 @@ git diff
 
 git diff --cached  or  git diff --staged
 
+
+Skip staging
+------------
+
+git commit -a -m 'added new benchmarks'
+
