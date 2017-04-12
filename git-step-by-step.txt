@@ -127,3 +127,19 @@ Skip staging
 
 git commit -a -m 'added new benchmarks'
 
+
+Remving file from staging
+-------------------------
+
+rm PROJECTS.md					// hard drive remove
+
+git rm PROJECTS.md				// remove from git stage
+
+git rm --cached PROJECTS.md		// remove cached version
+
+
+Moving Files
+------------
+
+
+
