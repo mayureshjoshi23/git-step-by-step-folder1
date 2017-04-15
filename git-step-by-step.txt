@@ -171,3 +171,9 @@ Undoing Things
 --------------
 
 git commit --amend
+
+
+Unstaging a Staged File
+-----------------------
+
+git reset HEAD <file name>
