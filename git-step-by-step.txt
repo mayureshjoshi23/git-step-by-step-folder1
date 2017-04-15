@@ -200,5 +200,12 @@ git remote -v
 	e.g.
 	git remote add gl https://github.com/mayureshjoshi23/git-step-by-step-folder1.git
 	
+	Fetching and Pulling from Your Remotes
+	--------------------------------------
+	git fetch [remote-name]
+	e.g.
+	git fetch origin
+	
+	
 	
 	
