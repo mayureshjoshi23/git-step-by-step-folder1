@@ -182,3 +182,23 @@ git reset HEAD <file name>
 Unmodifying a Modified File
 ---------------------------
 git checkout -- <file name>
+
+
+
+Woking with remote
+-------------------
+
+To see which remote servers you have configured you can run the command
+git remote
+or  
+git remote -v
+
+
+	Adding Remote Repositories
+	--------------------------
+	git remote add <shortname> <url>
+	e.g.
+	git remote add gl https://github.com/mayureshjoshi23/git-step-by-step-folder1.git
+	
+	
+	
