@@ -221,5 +221,10 @@ git remote -v
 	e.g.
 	git remote show origin
 	
-	
+	Removing and Renaming Remotes
+	-----------------------------
+	if you want to rename 
+	git remote rename <old remote> <new remote>
+	e.g.
+	git remote rename gl gitLearning
 	
