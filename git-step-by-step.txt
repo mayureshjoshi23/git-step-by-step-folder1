@@ -211,7 +211,9 @@ git remote -v
 	You have to merge it manually into your work when you’re ready.
 	
 	To automatically fetch and then merge that remote branch into your current branch use
-	git pull
+	git pull <remote> <branch>
+	e.g.
+	git pull origin master
 	
 
 	
