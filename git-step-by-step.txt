@@ -165,3 +165,9 @@ git log --since=2.weeks
 
 git log --pretty="%h - %s" --author=gitster --since="2008-10-01" \
    --before="2008-11-01" --no-merges -- t/
+   
+   
+Undoing Things
+--------------
+
+git commit --amend
