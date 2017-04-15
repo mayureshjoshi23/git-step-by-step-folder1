@@ -177,3 +177,8 @@ Unstaging a Staged File
 -----------------------
 
 git reset HEAD <file name>
+
+
+Unmodifying a Modified File
+---------------------------
+git checkout -- <file name>
