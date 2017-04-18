@@ -356,4 +356,7 @@ Git Branching - Branches in a Nutshell
 			e.g.
 			git branch -d branching
 			
-			
+	
+		Using mergtool
+		-----------------
+			git mergetool
