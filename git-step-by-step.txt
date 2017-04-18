@@ -297,4 +297,24 @@ Git Basics - Tagging
 		If you want to put a version of your repository in your working directory that looks like a specific tag, you can create a new branch at a specific tag with 
 		git checkout -b [branchname] [tagname]
 		
+
 		
+		
+		
+Git Basics - Git Aliases
+------------------------
+
+	git config --global alias.co checkout
+	git config --global alias.br branch
+	git config --global alias.ci commit
+	git config --global alias.st status
+
+	git config --global alias.unstage 'reset HEAD --'
+	git config --global alias.lg 'log --pretty=format:"%h - %an, %ar : %s" --graph'
+
+	git config --global alias.visual '!gitk'
+	
+	
+	
+	
+	
