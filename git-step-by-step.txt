@@ -311,6 +311,7 @@ Git Basics - Git Aliases
 
 	git config --global alias.unstage 'reset HEAD --'
 	git config --global alias.lg 'log --pretty=format:"%h - %an, %ar : %s" --graph'
+	git config --global alias.lgall 'log --pretty=format:"%h - %an, %ar : %s" --graph  --all'
 
 	git config --global alias.visual '!gitk'
 	
@@ -318,3 +319,41 @@ Git Basics - Git Aliases
 	
 	
 	
+Git Branching - Branches in a Nutshell
+--------------------------------------
+
+	Creating a New Branch
+	---------------------
+		git branch <branch name>
+		e.g.
+		git branch branching
+		
+	
+	Switching Branches
+	------------------
+		git checkout <branch name>
+		e.g.
+		git checkout branching
+		
+	Shorthand for creating and switching to new branch
+		git checkout -b <branch name>
+		e.g.
+		git checkout -b branching
+		
+	
+	Git Branching - Basic Branching and Merging
+	-------------------------------------------
+		Steps to merge branch into master
+		--------------------------------
+			git checkout master
+			git merge <branch name>
+			e.g.
+			git merge branching
+		
+		Steps to delete the branch
+		--------------------------
+			git branch -d <branch name>
+			e.g.
+			git branch -d branching
+			
+			
