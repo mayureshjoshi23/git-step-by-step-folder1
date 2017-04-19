@@ -356,9 +356,21 @@ Git Branching - Branches in a Nutshell
 			e.g.
 			git branch -d branching
 			
+			To force delete the branch which is not  yet merged use -D option
+			git branch -D <branch name>
+			e.g.
+			git branch -D branching
+			
 			
 			
 		Using mergetool as a pro
 		------------------------
 			git mergetool
 
+	
+	Git Branching - Branch Management
+	---------------------------------
+		git branch
+		git branch -v
+		git branch --merged
+		git branch --no-merged
