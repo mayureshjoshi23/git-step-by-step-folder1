@@ -6,3 +6,5 @@ To check changes in already tracked file
 To check changes in already tracked file
 
 To check git diff
+
+skipping staging area
