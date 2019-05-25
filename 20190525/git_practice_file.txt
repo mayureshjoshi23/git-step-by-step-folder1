@@ -1,0 +1,3 @@
+I am going to write some content in this file in order to practice git commands.
+This is my latest initiative to learn git completely.
+
